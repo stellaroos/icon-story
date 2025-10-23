@@ -1,0 +1,74 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-size: 16px;
+}
+
+div.header {
+    background-image: url("header1.jpg");
+    background-size: cover;
+    height: 100vh;
+    /*width: 100vw,*/
+}
+
+h1 {
+    font-size: 58px;
+    text-align: center;
+    padding-top: 20%;
+    color: #FF24F0;
+    font-family: "Futura Bold";
+}
+
+h4 {
+    color: #232DDB;
+    font-family: "Helvetica";
+}
+
+p {
+    font-family: "Helvetica";
+}
+
+.body {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: "Helvetica";
+}
+
+.large {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.medium {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.small {
+    display: flex; 
+}
+
+
+
+/*********************************************************************
+  YOUR TABLET/DESKTOP STYLES GO HERE
+*********************************************************************/
+@media(min-width: 681px) {
+    /* Any adjustments for tablets and larger go here.
+    Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+}
+
+/*********************************************************************
+  YOUR DESKTOP-ONLY STYLES GO HERE
+*********************************************************************/
+@media(min-width: 729px) {
+    /* Any adjustments for desktop and larger go here.
+    Note these styles will be applied to anything 729px or larger -- so desktop */
+}
